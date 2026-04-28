@@ -17,4 +17,4 @@ def write_todo_file(file_path, tasks):
                 file.write(task + "\n")
     except FileNotFoundError:
         print(f"File {file_path} not found! Returning an empty to-do list.")
-        return []
+        return 
